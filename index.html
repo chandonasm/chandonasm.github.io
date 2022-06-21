@@ -250,6 +250,71 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
+        <a href="/2022/06/08/MySql/%E5%BF%AB%E7%85%A7%E8%AF%BB%E4%B8%8EMVCC/" target="_self">
+          快照读与MVCC
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/06/08/MySql/%E5%BF%AB%E7%85%A7%E8%AF%BB%E4%B8%8EMVCC/" target="_self">
+        <div>
+          MVCC全称Multi-Version Concurrency Control，多版本并发控制。核心思想：维持一个数据的多个版本，更好的处理读写冲突，做到即使读写有冲突也能做到不加锁，非阻塞，并发读。依赖于记录中的三个隐藏字段与undo log 与read view实现。 隐藏字段：DB_TRX_ID，记录最后一次修改该记录的事务ID。占用6字节DB_ROLL_PTR，回滚指针，指向这条记录的上一
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-06-08 18:59" pubdate>
+              2022-06-08
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3 d-flex align-items-center">
+            <i class="iconfont icon-category"></i>
+            
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/MySQL/" class="category-chain-item">MySQL</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/MySQL/">#MySQL</a>
+            
+              <a href="/tags/MVCC/">#MVCC</a>
+            
+              <a href="/tags/%E5%BF%AB%E7%85%A7%E8%AF%BB/">#快照读</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
         <a href="/2022/06/08/MySql/%E5%BD%93%E5%89%8D%E8%AF%BB%E4%B8%8ELBCC/" target="_self">
           当前读与LBCC
         </a>
@@ -337,71 +402,6 @@
           </div>
         
         
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/06/21/MySql/%E5%BF%AB%E7%85%A7%E8%AF%BB%E4%B8%8EMVCC/" target="_self">
-          快照读与MVCC
-        </a>
-      </h1>
-
-      
-      <a class="index-excerpt index-excerpt__noimg" href="/2021/06/21/MySql/%E5%BF%AB%E7%85%A7%E8%AF%BB%E4%B8%8EMVCC/" target="_self">
-        <div>
-          MVCC全称Multi-Version Concurrency Control，多版本并发控制。核心思想：维持一个数据的多个版本，更好的处理读写冲突，做到即使读写有冲突也能做到不加锁，非阻塞，并发读。依赖于记录中的三个隐藏字段与undo log 与read view实现。 隐藏字段：DB_TRX_ID，记录最后一次修改该记录的事务ID。占用6字节DB_ROLL_PTR，回滚指针，指向这条记录的上一
-        </div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-06-21 18:42" pubdate>
-              2021-06-21
-            </time>
-          </div>
-        
-        
-          <div class="post-meta mr-3 d-flex align-items-center">
-            <i class="iconfont icon-category"></i>
-            
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/MySQL/" class="category-chain-item">MySQL</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-          </div>
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/MySQL/">#MySQL</a>
-            
-              <a href="/tags/MVCC/">#MVCC</a>
-            
-              <a href="/tags/%E5%BF%AB%E7%85%A7%E8%AF%BB/">#快照读</a>
-            
-          </div>
         
       </div>
     </article>
